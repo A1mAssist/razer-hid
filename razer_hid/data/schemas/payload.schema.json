@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "pid",
+    "class",
+    "command",
+    "dataSize",
+    "kind",
+    "source"
+  ],
+  "properties": {
+    "pid": {
+      "type": "string",
+      "pattern": "^[0-9A-F]{4}$"
+    },
+    "class": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 255
+    },
+    "command": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 255
+    },
+    "name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dataSize": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "kind": {
+      "enum": [
+        "constant",
+        "argument",
+        "buffer",
+        "indexed",
+        "push",
+        "frames",
+        "zero",
+        "none",
+        "unknown"
+      ]
+    },
+    "bytes": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      }
+    },
+    "length": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "argument": {
+      "type": "string"
+    },
+    "frames": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255
+        }
+      }
+    },
+    "fields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "index",
+          "expression",
+          "source"
+        ],
+        "properties": {
+          "index": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "expression": {
+            "type": "string"
+          },
+          "source": {
+            "enum": [
+              "literal",
+              "arg",
+              "computed"
+            ]
+          },
+          "value": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "jsonData": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "field",
+          "expression",
+          "source"
+        ],
+        "properties": {
+          "field": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "expression": {
+            "type": "string"
+          },
+          "source": {
+            "enum": [
+              "literal",
+              "arg",
+              "computed"
+            ]
+          },
+          "value": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "raw": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reason": {
+      "type": "string"
+    },
+    "source": {
+      "enum": [
+        "facts",
+        "out11"
+      ]
+    }
+  }
+}

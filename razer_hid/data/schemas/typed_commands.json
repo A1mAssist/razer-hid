@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "commands": [
+    {
+      "feature": "battery",
+      "class": 7,
+      "command": 128,
+      "direction": "read",
+      "dataSize": 2,
+      "response": "arguments[1] * 100 / 255"
+    },
+    {
+      "feature": "charging",
+      "class": 7,
+      "command": 132,
+      "direction": "read",
+      "dataSize": 2,
+      "response": "arguments[1] != 0"
+    },
+    {
+      "feature": "polling",
+      "class": 0,
+      "command": 133,
+      "direction": "read",
+      "dataSize": 1,
+      "response": "rate table 0x01=1000, 0x02=500, 0x03=333, 0x04=250, 0x05=200, 0x08=125, 0x0A=100"
+    },
+    {
+      "feature": "brightness",
+      "class": 16,
+      "command": 133,
+      "direction": "read",
+      "dataSize": 1,
+      "response": "arguments[0] * 100 / 255"
+    },
+    {
+      "feature": "dpi",
+      "class": 4,
+      "command": 133,
+      "direction": "read",
+      "dataSize": 7,
+      "response": "profile=arguments[0], x=arguments[1..2], y=arguments[3..4]"
+    },
+    {
+      "feature": "effect",
+      "class": 16,
+      "command": 131,
+      "direction": "read",
+      "dataSize": 0,
+      "response": "effect, flags, rate, colorCount, RGB triples"
+    }
+  ]
+}

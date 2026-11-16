@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "vendorId": 5380,
+  "snapshot": "2026-11-16",
+  "devices": [
+    {
+      "pid": "0046",
+      "product": "Razer Mamba Elite",
+      "transport": "hid25",
+      "reportId": 0,
+      "reportSize": 91,
+      "connection": "usb",
+      "transactionBase": 0,
+      "transactionModulo": 32,
+      "supported": true,
+      "verified": false,
+      "evidence": [
+        "docs/reverse/protocols/hid-25.md",
+        "snapshot:razer-mw-full-cdn/out11#0046"
+      ]
+    },
+    {
+      "pid": "00B8",
+      "product": "Razer Viper V3 HyperSpeed",
+      "transport": "hid25",
+      "reportId": 0,
+      "reportSize": 91,
+      "connection": "usb",
+      "transactionBase": 0,
+      "transactionModulo": 32,
+      "supported": true,
+      "verified": false,
+      "notes": "wireless-link-status 00:BF read returned status 0x02 on 2026-11-16; battery/DPI require the mouse awake",
+      "evidence": [
+        "src/OpenSynapse.Windows/Protocols/ViperProduct184Protocol.cs:13",
+        "src/OpenSynapse.Windows/Devices/Manifests/viper-184.json",
+        "docs/reverse/generated/implementation-alignment.md"
+      ]
+    },
+    {
+      "pid": "028D",
+      "product": "Blackwidow V4 Pro",
+      "transport": "hid25",
+      "reportId": 0,
+      "reportSize": 91,
+      "connection": "usb",
+      "transactionBase": 0,
+      "transactionModulo": 32,
+      "supported": true,
+      "verified": false,
+      "evidence": [
+        "docs/reverse/protocols/hid-25.md",
+        "docs/reverse/protocols/lighting.md"
+      ]
+    },
+    {
+      "pid": "00A4",
+      "product": "Razer Mouse Dock Pro",
+      "transport": "hid25",
+      "reportId": 0,
+      "reportSize": 91,
+      "connection": "usb",
+      "transactionBase": 224,
+      "transactionModulo": 32,
+      "supported": true,
+      "verified": false,
+      "notes": "transaction id is 0xE0 | sequence",
+      "evidence": [
+        "src/OpenSynapse.Windows/Protocols/RazerFeatureTransport.Transactions.cs:11-66"
+      ]
+    },
+    {
+      "pid": "054A",
+      "product": "Razer Leviathan V2 X / Pokemon Pikachu Edition Soundbar",
+      "transport": "hid25",
+      "reportId": 7,
+      "reportSize": 91,
+      "connection": "usb",
+      "transactionBase": 0,
+      "transactionModulo": 32,
+      "transactionChecksum": true,
+      "supported": true,
+      "verified": false,
+      "notes": "report id 7; firmware may include the transaction id in the checksum",
+      "evidence": [
+        "src/OpenSynapse.Windows/Protocols/LeviathanV2XProtocol.cs:26-32"
+      ]
+    },
+    {
+      "pid": "0A45",
+      "product": "Razer Wolverine V3 Tournament Edition",
+      "transport": "hid25",
+      "reportId": 4,
+      "reportSize": 91,
+      "connection": "usb",
+      "transactionBase": 0,
+      "transactionModulo": 32,
+      "supported": true,
+      "verified": false,
+      "notes": "gamepad family uses report id 4; commands are class 0x0C",
+      "evidence": [
+        "src/OpenSynapse.Windows/Protocols/RazerFeatureReport.cs:96-100",
+        "docs/GAMEPAD_FEASIBILITY.md:72"
+      ]
+    },
+    {
+      "pid": "00E5",
+      "product": "Razer Viper V4 Pro",
+      "transport": "ble30",
+      "reportId": null,
+      "reportSize": null,
+      "connection": "ble",
+      "supported": false,
+      "verified": false,
+      "notes": "BLE protocol 30; use razer_hid.transport.ble30 with a device address",
+      "evidence": [
+        "docs/PROTOCOL30_BLE.zh-CN.md",
+        "docs/reverse/protocols/hid-30.md"
+      ]
+    },
+    {
+      "pid": "0576",
+      "product": "Razer BlackShark V3 Pro",
+      "transport": "hid64",
+      "reportId": 2,
+      "reportSize": 64,
+      "connection": "usb",
+      "supported": true,
+      "verified": false,
+      "notes": "64-byte output report (byte 9 direction, byte 10 class, byte 12 command, byte 62 CRC); implemented, hardware not verified",
+      "evidence": [
+        "src/OpenSynapse.Windows/Protocols/BlackSharkV3ProProtocol.cs:16-23"
+      ]
+    }
+  ]
+}

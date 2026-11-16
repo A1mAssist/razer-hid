@@ -1,0 +1,6356 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": {
+    "snapshot": "2026-11-16",
+    "out11": "razer-mw-full-cdn/out11/protocols.json",
+    "catalog": "src/OpenSynapse.Windows/Devices/RazerHid/*.json",
+    "profiles": "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md",
+    "headsets": "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs",
+    "gamepads": "src/OpenSynapse.Windows/Devices/RazerGamepadService.cs"
+  },
+  "counts": {
+    "total": 451,
+    "byTransport": {
+      "avnera65": 5,
+      "billie64": 9,
+      "ble-audio": 14,
+      "ble30": 1,
+      "external": 1,
+      "hid25": 350,
+      "hid25-64": 1,
+      "hid25-65": 7,
+      "hid64": 4,
+      "jolie64": 2,
+      "kraken37": 13,
+      "mixer053e": 1,
+      "mxic64": 13,
+      "native": 10,
+      "protocol40": 2,
+      "unknown": 2,
+      "valkyrie-t3-64": 8,
+      "valkyrie64": 8
+    },
+    "byConfidence": {
+      "evidenced": 430,
+      "family-inferred": 19,
+      "unknown": 1,
+      "verified": 1
+    }
+  },
+  "devices": [
+    {
+      "pid": "0013",
+      "name": "Razer Orochi 2011",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0015",
+      "name": "Razer Naga",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "001F",
+      "name": "Razer Naga Epic",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0020",
+      "name": "Razer Abyssus 1800",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0024",
+      "name": "Razer Mamba 2012 (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0025",
+      "name": "Razer Mamba 2012 (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "002E",
+      "name": "Razer Naga 2012",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "002F",
+      "name": "Razer Imperator 2012",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0032",
+      "name": "Razer Ouroboros",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0034",
+      "name": "Razer Taipan",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0036",
+      "name": "Razer Naga Hex (Red)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0037",
+      "name": "Razer DeathAdder 2013",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0038",
+      "name": "Razer DeathAdder 1800",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0039",
+      "name": "Razer Orochi 2013",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "003E",
+      "name": "Razer Naga Epic Chroma (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "003F",
+      "name": "Razer Naga Epic Chroma (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0040",
+      "name": "Razer Naga 2014",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0041",
+      "name": "Razer Naga Hex",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0042",
+      "name": "Razer Abyssus",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0043",
+      "name": "Razer DeathAdder Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0044",
+      "name": "Razer Mamba Chroma (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0045",
+      "name": "Razer Mamba Chroma (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0046",
+      "name": "Razer Mamba Elite",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "razer_hid/data/devices.json"
+      ],
+      "notes": "protocol 2.5 default",
+      "rzDeviceType": "rzDevice25Legacy"
+    },
+    {
+      "pid": "0048",
+      "name": "Razer Orochi (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "004C",
+      "name": "Razer Diamondback Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "004F",
+      "name": "Razer DeathAdder 2000",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0050",
+      "name": "Razer Naga Hex V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LegacyNoBrightness"
+    },
+    {
+      "pid": "0053",
+      "name": "Razer Naga Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LegacyNoBrightness"
+    },
+    {
+      "pid": "0054",
+      "name": "Razer DeathAdder 3500",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0059",
+      "name": "Razer Lancehead (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "005A",
+      "name": "Razer Lancehead (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "005B",
+      "name": "Razer Abyssus V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "005C",
+      "name": "Razer DeathAdder Elite",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "005E",
+      "name": "Razer Abyssus 2000",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0060",
+      "name": "Razer Lancehead Tournament Edition",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0062",
+      "name": "Razer Atheris (Receiver)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0063",
+      "name": "Razer Jugan",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P4"
+      ],
+      "notes": "command profile P4",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0064",
+      "name": "Razer Basilisk",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0065",
+      "name": "Razer Basilisk Essential",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0067",
+      "name": "Razer Naga Trinity",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0068",
+      "name": "Razer Firefly Hyperflux (2018)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0069",
+      "name": "Razer Mamba Hyperflux",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P5"
+      ],
+      "notes": "command profile P5",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "006A",
+      "name": "Razer Abyssus Elite (D.Va Edition)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "006B",
+      "name": "Razer Abyssus Essential",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "006C",
+      "name": "Razer Mamba Elite",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "006E",
+      "name": "Razer DeathAdder Essential",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "006F",
+      "name": "Razer Lancehead Wireless (Receiver)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0070",
+      "name": "Razer Lancehead Wireless (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0071",
+      "name": "Razer DeathAdder Essential (White Edition)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0072",
+      "name": "Razer Mamba Wireless (Receiver)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0073",
+      "name": "Razer Mamba Wireless (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0074",
+      "name": "Razer Abyssus Lite",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P4"
+      ],
+      "notes": "command profile P4",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0075",
+      "name": "Razer Turret Mouse Xbox One Edition",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P2"
+      ],
+      "notes": "command profile P2",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0077",
+      "name": "Razer Pro Click (Receiver)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0078",
+      "name": "Razer Viper",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "007A",
+      "name": "Razer Viper Ultimate (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "007B",
+      "name": "Razer Viper Ultimate (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "007C",
+      "name": "Razer DeathAdder V2 Pro (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "007D",
+      "name": "Razer DeathAdder V2 Pro (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "007E",
+      "name": "Razer Mouse Dock",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0080",
+      "name": "Razer Pro Click (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0083",
+      "name": "Razer Basilisk X HyperSpeed",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0084",
+      "name": "Razer DeathAdder V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0085",
+      "name": "Razer Basilisk V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0086",
+      "name": "Razer Basilisk Ultimate",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0088",
+      "name": "Razer Basilisk Ultimate (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "008A",
+      "name": "Razer Viper Mini",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "008C",
+      "name": "Razer DeathAdder V2 Mini",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "008D",
+      "name": "Razer Naga Left Handed Edition 2020",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "008F",
+      "name": "Razer Naga Pro (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0090",
+      "name": "Razer Naga Pro (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0091",
+      "name": "Razer Viper 8KHz",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0093",
+      "name": "Razer Naga Classic Edition",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P5"
+      ],
+      "notes": "command profile P5",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0094",
+      "name": "Razer Orochi V2 (Receiver)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0095",
+      "name": "Razer Orochi V2 (Bluetooth)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0096",
+      "name": "Razer Naga X",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0098",
+      "name": "Razer DeathAdder Essential (2021)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0099",
+      "name": "Razer Basilisk V3",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "009A",
+      "name": "Razer Pro Click Mini (Receiver)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "009C",
+      "name": "Razer DeathAdder V2 X HyperSpeed",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "009E",
+      "name": "Razer Viper Mini SE (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "009F",
+      "name": "Razer Viper Mini SE (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00A1",
+      "name": "Razer DeathAdder V2 Lite",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00A2",
+      "name": "",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzDevice25"
+      ],
+      "notes": "bundle declares rzDevice25",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00A3",
+      "name": "Razer Cobra",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00A4",
+      "name": "Razer Mouse Dock Pro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "razer_hid/data/devices.json"
+      ],
+      "notes": "transaction 0xE0 | sequence",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00A5",
+      "name": "Razer Viper V2 Pro (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00A6",
+      "name": "Razer Viper V2 Pro (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00A7",
+      "name": "Razer Naga V2 Pro (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00A8",
+      "name": "Razer Naga V2 Pro (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00AA",
+      "name": "Razer Basilisk V3 Pro (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00AB",
+      "name": "Razer Basilisk V3 Pro (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00AF",
+      "name": "Razer Cobra Pro (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00B0",
+      "name": "Razer Cobra Pro (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00B2",
+      "name": "Razer DeathAdder V3",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00B3",
+      "name": "Razer HyperPolling Wireless Dongle",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00B4",
+      "name": "Razer Naga V2 HyperSpeed (Receiver)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00B6",
+      "name": "Razer DeathAdder V3 Pro (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00B7",
+      "name": "Razer DeathAdder V3 Pro (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00B8",
+      "name": "Razer Viper V3 HyperSpeed",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "verified",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/hardware-validation.md",
+        "src/OpenSynapse.Windows/Devices/Manifests/viper-184.json"
+      ],
+      "notes": "00:BF wireless-link read returned status 0x02 on 2026-11-16",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00B9",
+      "name": "Razer Basilisk V3 X HyperSpeed",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00BE",
+      "name": "Razer DeathAdder V4 Pro (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00BF",
+      "name": "Razer DeathAdder V4 Pro (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00C0",
+      "name": "Razer Viper V3 Pro (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00C1",
+      "name": "Razer Viper V3 Pro (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00C2",
+      "name": "Razer DeathAdder V3 Pro HyperPolling (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00C3",
+      "name": "Razer DeathAdder V3 Pro HyperPolling (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00C4",
+      "name": "Razer DeathAdder V3 HyperSpeed (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00C5",
+      "name": "Razer DeathAdder V3 HyperSpeed (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00C7",
+      "name": "Razer Pro Click V2 Vertical Edition (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00C8",
+      "name": "Razer Pro Click V2 Vertical Edition (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00CB",
+      "name": "Razer Basilisk V3 35K",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00CC",
+      "name": "Razer Basilisk V3 Pro 35K (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00CD",
+      "name": "Razer Basilisk V3 Pro 35K (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00CF",
+      "name": "Razer HyperFlux V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P2"
+      ],
+      "notes": "command profile P2",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00D0",
+      "name": "Razer Pro Click V2 (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00D1",
+      "name": "Razer Pro Click V2 (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00D3",
+      "name": "Razer Basilisk Mobile (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00D4",
+      "name": "Razer Basilisk Mobile (Receiver)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00D6",
+      "name": "Razer Basilisk V3 Pro 35K Phantom Green Edition (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00D7",
+      "name": "Razer Basilisk V3 Pro 35K Phantom Green Edition (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00DA",
+      "name": "Razer Cobra HyperSpeed (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00DB",
+      "name": "Razer Cobra HyperSpeed (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/mice.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "00DD",
+      "name": "Razer Krakoff",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P2"
+      ],
+      "notes": "command profile P2",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00DE",
+      "name": "Razer Viper V3 Pro SE",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P5"
+      ],
+      "notes": "command profile P5",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00E0",
+      "name": "Razer Orochi V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P5"
+      ],
+      "notes": "command profile P5",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00E2",
+      "name": "Razer Basilisk V4 Pro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P19"
+      ],
+      "notes": "command profile P19",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00E5",
+      "name": "Razer Viper V4 Pro",
+      "transport": "ble30",
+      "connection": "ble",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "docs/PROTOCOL30_BLE.zh-CN.md",
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "BLE protocol 30; experimental async transport",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00E7",
+      "name": "RAZER NAGA V3 PRO",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P30"
+      ],
+      "notes": "command profile P30",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00EB",
+      "name": "Razer Basilisk V4 HyperSpeed",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P19"
+      ],
+      "notes": "command profile P19",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00EF",
+      "name": "Razer DeathAdder V4 Pro Carbon Fiber Edition",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P5"
+      ],
+      "notes": "command profile P5",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "00F1",
+      "name": "Razer Mouse Dock V2 Pro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P21"
+      ],
+      "notes": "command profile P21",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "010D",
+      "name": "Razer BlackWidow Ultimate 2012",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "010E",
+      "name": "Razer BlackWidow Stealth Edition",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "010F",
+      "name": "Razer Anansi",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0111",
+      "name": "Razer Nostromo",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0113",
+      "name": "Razer Orbweaver",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0118",
+      "name": "Razer DeathStalker/DeathStalker Essential",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "011A",
+      "name": "Razer BlackWidow Ultimate 2013",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "011B",
+      "name": "Razer BlackWidow (Classic)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "011C",
+      "name": "Razer BlackWidow Tournament Edition 2014",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0201",
+      "name": "Razer Tartarus",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0202",
+      "name": "Razer DeathStalker Expert",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0203",
+      "name": "Razer BlackWidow Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrix"
+    },
+    {
+      "pid": "0204",
+      "name": "Razer DeathStalker Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0205",
+      "name": "Razer Blade Stealth",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0207",
+      "name": "Razer Orbweaver Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0208",
+      "name": "Razer Tartarus Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0209",
+      "name": "Razer BlackWidow Tournament Edition Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrix"
+    },
+    {
+      "pid": "020F",
+      "name": "Razer Blade (QHD)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0210",
+      "name": "Razer Blade Pro (Late 2016)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0211",
+      "name": "Razer BlackWidow Chroma (Overwatch)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrix"
+    },
+    {
+      "pid": "0214",
+      "name": "Razer BlackWidow Ultimate 2016",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0215",
+      "name": "Razer Core",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0216",
+      "name": "Razer BlackWidow X Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrix"
+    },
+    {
+      "pid": "0217",
+      "name": "Razer BlackWidow X Ultimate",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "021A",
+      "name": "Razer BlackWidow X Tournament Edition Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "021E",
+      "name": "Razer Ornata Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "021F",
+      "name": "Razer Ornata",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0220",
+      "name": "Razer Blade Stealth (Late 2016)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0221",
+      "name": "BlackWidow Chroma V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrix"
+    },
+    {
+      "pid": "0224",
+      "name": "Razer Blade (Late 2016)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0225",
+      "name": "Razer Blade Pro (2017)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0226",
+      "name": "Razer Huntsman Elite",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0227",
+      "name": "Razer Huntsman",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0228",
+      "name": "Razer BlackWidow Elite",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "022A",
+      "name": "Razer Cynosa Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "022B",
+      "name": "Razer Tartarus V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "022C",
+      "name": "Razer Cynosa Chroma Pro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "022D",
+      "name": "Razer Blade Stealth (Mid 2017)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "022F",
+      "name": "Razer Blade Pro FullHD (2017)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0232",
+      "name": "Razer Blade Stealth (Late 2017)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0233",
+      "name": "Razer Blade 15 (2018)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "0234",
+      "name": "Razer Blade Pro 17 (2019)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade"
+    },
+    {
+      "pid": "0235",
+      "name": "Razer BlackWidow Lite",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0237",
+      "name": "Razer BlackWidow Essential",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0239",
+      "name": "Razer Blade Stealth (2019)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade"
+    },
+    {
+      "pid": "023A",
+      "name": "Razer Blade 15 (2019) Advanced",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade"
+    },
+    {
+      "pid": "023B",
+      "name": "Razer Blade 15 (2018) Base Model",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "023E",
+      "name": "Turret Keyboard Xbox One Edition",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P12"
+      ],
+      "notes": "command profile P12",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "023F",
+      "name": "Razer Cynosa Lite",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0240",
+      "name": "Razer Blade 15 (2018) Mercury",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "0241",
+      "name": "Razer BlackWidow 2019",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0243",
+      "name": "Razer Huntsman Tournament Edition",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0244",
+      "name": "Razer Tartarus Pro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0245",
+      "name": "Razer Blade 15 (Mid 2019) Mercury",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "0246",
+      "name": "Razer Blade 15 (Mid 2019) Base Model",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "0249",
+      "name": "Razer Pro Type",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P7"
+      ],
+      "notes": "command profile P7",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "024A",
+      "name": "Razer Blade Stealth (Late 2019)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "024B",
+      "name": "Razer Blade Advanced (Late 2019)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "024C",
+      "name": "Razer Blade Pro (Late 2019)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "024D",
+      "name": "Razer Blade 15 Studio Edition (2019)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "024E",
+      "name": "Razer BlackWidow V3",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "024F",
+      "name": "Razer BlackWidow X: Tenkeyless",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P12"
+      ],
+      "notes": "command profile P12",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0250",
+      "name": "Razer Huntsman Essential",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P12"
+      ],
+      "notes": "command profile P12",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0251",
+      "name": "Razer Pokémon Pikachu Limited Edition Backlit Keyboard",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P7"
+      ],
+      "notes": "command profile P7",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0252",
+      "name": "Razer Blade Stealth (Early 2020)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade"
+    },
+    {
+      "pid": "0253",
+      "name": "Razer Blade 15 Advanced (2020)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "0255",
+      "name": "Razer Blade Base (Early 2020)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "0256",
+      "name": "Razer Blade Pro (Early 2020)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "0257",
+      "name": "Razer Huntsman Mini",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0258",
+      "name": "Razer BlackWidow V3 Mini HyperSpeed (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0259",
+      "name": "Razer Blade Stealth (Late 2020)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade"
+    },
+    {
+      "pid": "025A",
+      "name": "Razer BlackWidow V3 Pro Wired",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "025C",
+      "name": "Razer BlackWidow V3 Pro 2.4 Ghz Wireless",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "025D",
+      "name": "Razer Ornata V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "025E",
+      "name": "Razer Cynosa V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0266",
+      "name": "Razer Huntsman V2 Analog",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0268",
+      "name": "Razer Blade Late 2020 Base",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "0269",
+      "name": "Razer Huntsman Mini JP",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "026A",
+      "name": "Razer Book (2020)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade"
+    },
+    {
+      "pid": "026B",
+      "name": "Razer Huntsman V2 Tenkeyless",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "026C",
+      "name": "Razer Huntsman V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "026D",
+      "name": "Razer Blade 15 Advanced (Early 2021)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "026E",
+      "name": "Razer Blade 17 Pro (Early 2021)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "026F",
+      "name": "Razer Blade Base (Early 2021)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "0270",
+      "name": "Razer Blade 14 (2021)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "0271",
+      "name": "Razer BlackWidow V3 Mini HyperSpeed (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0276",
+      "name": "Razer Blade 15 Advanced (Mid 2021)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "0277",
+      "name": "Razer Pro Type Ultra",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P7"
+      ],
+      "notes": "command profile P7",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0279",
+      "name": "Razer Blade 17 Pro (Mid 2021)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBladeWattage"
+    },
+    {
+      "pid": "027A",
+      "name": "Razer Blade Base (Early 2022)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade"
+    },
+    {
+      "pid": "0282",
+      "name": "Razer Huntsman Mini Analog",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0287",
+      "name": "Razer BlackWidow V4",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "028A",
+      "name": "Razer Blade 15 Advanced (Early 2022)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade"
+    },
+    {
+      "pid": "028B",
+      "name": "Razer Blade 17 (2022)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade"
+    },
+    {
+      "pid": "028C",
+      "name": "Razer Blade 14 (2022)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade"
+    },
+    {
+      "pid": "028D",
+      "name": "Blackwidow V4 Pro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "razer_hid/data/devices.json"
+      ],
+      "notes": "lighting uses class 0x0F",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "028E",
+      "name": "",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P7"
+      ],
+      "notes": "command profile P7",
+      "rzDeviceType": "rzDevice25LegacyHardwareEffect"
+    },
+    {
+      "pid": "028F",
+      "name": "Razer Ornata V3 (Alternate)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0290",
+      "name": "Razer DeathStalker V2 Pro (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0292",
+      "name": "Razer DeathStalker V2 Pro (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0293",
+      "name": "Razer BlackWidow V4 X",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0294",
+      "name": "Razer Ornata V3 X",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0295",
+      "name": "Razer DeathStalker V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0296",
+      "name": "Razer DeathStalker V2 Pro TKL (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0298",
+      "name": "Razer DeathStalker V2 Pro TKL (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "029D",
+      "name": "Razer Blade 14 (2023)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade2"
+    },
+    {
+      "pid": "029E",
+      "name": "Razer Blade 15 (2023)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade"
+    },
+    {
+      "pid": "029F",
+      "name": "Razer Blade 16 (2023)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade"
+    },
+    {
+      "pid": "02A0",
+      "name": "Razer Blade 18 (2023)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade"
+    },
+    {
+      "pid": "02A1",
+      "name": "Razer Ornata V3",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02A2",
+      "name": "Razer Ornata V3 X (Alternate)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02A3",
+      "name": "Razer Ornata V3 Tenkeyless",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02A5",
+      "name": "Razer BlackWidow V4 75%",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02A6",
+      "name": "Razer Huntsman V3 Pro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02A7",
+      "name": "Razer Huntsman V3 Pro TKL",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02B0",
+      "name": "Razer Huntsman V3 Pro Mini",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02B1",
+      "name": "Razer Huntsman V3 X Tenkeyless",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P11"
+      ],
+      "notes": "command profile P11",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02B3",
+      "name": "Blackwidow V4 Pro 75%",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P11"
+      ],
+      "notes": "command profile P11",
+      "rzDeviceType": "rzDevice25Oled"
+    },
+    {
+      "pid": "02B6",
+      "name": "Razer Blade 14 (2024)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade2"
+    },
+    {
+      "pid": "02B7",
+      "name": "Razer Blade 16",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P14"
+      ],
+      "notes": "command profile P14",
+      "rzDeviceType": "rzDevice25LedMatrixBlade2"
+    },
+    {
+      "pid": "02B8",
+      "name": "Razer Blade 18 (2024)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade2"
+    },
+    {
+      "pid": "02B9",
+      "name": "Razer BlackWidow V4 Mini HyperSpeed (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02BA",
+      "name": "Razer BlackWidow V4 Mini HyperSpeed (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "02C4",
+      "name": "Razer Pro Type Ergo",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P18"
+      ],
+      "notes": "command profile P18",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02C5",
+      "name": "Razer Blade 14 (2025)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade2"
+    },
+    {
+      "pid": "02C6",
+      "name": "Razer Blade 16",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P16"
+      ],
+      "notes": "command profile P16",
+      "rzDeviceType": "rzDevice25LedMatrixBlade2"
+    },
+    {
+      "pid": "02C7",
+      "name": "Razer Blade 18 (2025)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade2"
+    },
+    {
+      "pid": "02CC",
+      "name": "Razer BlackWidow V4 Low-profile HyperSpeed",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P11"
+      ],
+      "notes": "command profile P11",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02CD",
+      "name": "Razer Joro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02CF",
+      "name": "Razer Huntsman V3 Pro 8KHz",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02D0",
+      "name": "Razer Huntsman V3 Pro Tenkeyless 8KHZ",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P6"
+      ],
+      "notes": "command profile P6",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02D1",
+      "name": "Razer Huntsman V3 Pro Mini 8KHz",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P6"
+      ],
+      "notes": "command profile P6",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02D4",
+      "name": "Razer BlackWidow V4 Low-profile Tenkeyless HyperSpeed",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P11"
+      ],
+      "notes": "command profile P11",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02D5",
+      "name": "Razer BlackWidow V4 Tenkeyless HyperSpeed (Wireless)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "02D7",
+      "name": "Razer BlackWidow V4 Tenkeyless HyperSpeed (Wired)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02D8",
+      "name": "Razer Huntsman Signature Edition",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P6"
+      ],
+      "notes": "command profile P6",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02E0",
+      "name": "Razer Blade 16 (2026)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade2"
+    },
+    {
+      "pid": "02E1",
+      "name": "Razer Blade 18 (2026)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/laptops.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25LedMatrixBlade2"
+    },
+    {
+      "pid": "02E3",
+      "name": "Razer Reclusa X Mini 65%",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P25"
+      ],
+      "notes": "command profile P25",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02E4",
+      "name": "Razer Huntsman V3 HE Magnetic Mini 65% 8KHz",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P6"
+      ],
+      "notes": "command profile P6",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02E5",
+      "name": "Razer Huntsman V3 Tenkeyless 8KHZ",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P6"
+      ],
+      "notes": "command profile P6",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02E6",
+      "name": "RAZER HUNTSMAN V3 PRO LOW-PROFILE TENKEYLESS 8KHZ",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P18"
+      ],
+      "notes": "command profile P18",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02EA",
+      "name": "Razer Huntsman V3 HE Magnetic Tenkeyless 8KHz",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P6"
+      ],
+      "notes": "command profile P6",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02EB",
+      "name": "Tartarus V2 Pro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P27"
+      ],
+      "notes": "command profile P27",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02F0",
+      "name": "Razer BlackWidow V4 75% XBOX 25 Anniversary Edition ",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P7"
+      ],
+      "notes": "command profile P7",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "02F4",
+      "name": "Razer Reclusa Mini 65%",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P29"
+      ],
+      "notes": "command profile P29",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0301",
+      "name": "RAZER PHILIPS HUE",
+      "transport": "external",
+      "connection": "unknown",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P31"
+      ],
+      "notes": "Philips Hue bridge over HTTPS, not HID",
+      "rzDeviceType": "PhilipsHueMgr"
+    },
+    {
+      "pid": "0309",
+      "name": "RAZER KRAKEN BT SANRIO LIMITED EDITION",
+      "transport": "ble-audio",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioAWKittyBLE channel Unsupported",
+      "rzDeviceType": "AudioAWKittyBLE"
+    },
+    {
+      "pid": "030A",
+      "name": "RAZER CHROMA ADDRESSABLE RGB CONTROLLER",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P5"
+      ],
+      "notes": "command profile P5",
+      "rzDeviceType": "rzASRock"
+    },
+    {
+      "pid": "030C",
+      "name": "Razer Key Light Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P4"
+      ],
+      "notes": "command profile P4",
+      "rzDeviceType": "rzDeviceIoT"
+    },
+    {
+      "pid": "030D",
+      "name": "Razer Aether Lamp Pro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P4"
+      ],
+      "notes": "command profile P4",
+      "rzDeviceType": "rzDeviceIoT"
+    },
+    {
+      "pid": "030E",
+      "name": "Razer Aether Lamp",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P4"
+      ],
+      "notes": "command profile P4",
+      "rzDeviceType": "rzDeviceIoT"
+    },
+    {
+      "pid": "030F",
+      "name": "Razer Aether Light Bulb",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P4"
+      ],
+      "notes": "command profile P4",
+      "rzDeviceType": "rzDeviceIoT"
+    },
+    {
+      "pid": "0310",
+      "name": "Razer Aether Light Strip",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P4"
+      ],
+      "notes": "command profile P4",
+      "rzDeviceType": "rzDeviceIoT"
+    },
+    {
+      "pid": "0316",
+      "name": "RAZER AETHER MONITOR LIGHT BAR",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P2"
+      ],
+      "notes": "command profile P2",
+      "rzDeviceType": "rzDeviceIoT"
+    },
+    {
+      "pid": "0317",
+      "name": "Razer Aether Standing Light Bars",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P4"
+      ],
+      "notes": "command profile P4",
+      "rzDeviceType": "rzDeviceIoT"
+    },
+    {
+      "pid": "0517",
+      "name": "Razer Nommo Chroma (Speakers)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0518",
+      "name": "Razer Nommo Pro (Speakers)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "051A",
+      "name": "Razer Nari Ultimate",
+      "transport": "avnera65",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 255,
+      "reportSize": 65,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioAvneraDevice channel AvneraFeature65",
+      "rzDeviceType": "AudioAvneraDevice"
+    },
+    {
+      "pid": "051C",
+      "name": "Razer Nari",
+      "transport": "avnera65",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 255,
+      "reportSize": 65,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioAvneraDevice channel AvneraFeature65",
+      "rzDeviceType": "AudioAvneraDevice"
+    },
+    {
+      "pid": "051E",
+      "name": "Razer Nari",
+      "transport": "avnera65",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 255,
+      "reportSize": 65,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioAvneraDevice channel AvneraFeature65",
+      "rzDeviceType": "AudioAvneraDevice"
+    },
+    {
+      "pid": "051F",
+      "name": "",
+      "transport": "avnera65",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 255,
+      "reportSize": 65,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioAvneraDevice channel AvneraFeature65",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0520",
+      "name": "RAZER USB AUDIO CONTROLLER",
+      "transport": "kraken37",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": 37,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioKrakenTE channel KrakenBase37",
+      "rzDeviceType": "AudioKrakenTE"
+    },
+    {
+      "pid": "0521",
+      "name": "Razer Kraken Kitty Edition",
+      "transport": "kraken37",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": 37,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioKrakenKitty channel KrakenBase37",
+      "rzDeviceType": "AudioKrakenKitty"
+    },
+    {
+      "pid": "0526",
+      "name": "Razer Kraken X USB",
+      "transport": "kraken37",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": 37,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioKrakenXUSB channel KrakenBase37",
+      "rzDeviceType": "AudioKrakenXUSB"
+    },
+    {
+      "pid": "0527",
+      "name": "Razer Kraken Ultimate",
+      "transport": "kraken37",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": 37,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioKrakenUltimate channel KrakenBase37",
+      "rzDeviceType": "AudioKrakenUltimate"
+    },
+    {
+      "pid": "0528",
+      "name": "Razer BlackShark V2 Pro",
+      "transport": "avnera65",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 255,
+      "reportSize": 65,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioAvneraDeviceOdessaT1 channel AvneraFeature65",
+      "rzDeviceType": "AudioAvneraDeviceOdessaT1"
+    },
+    {
+      "pid": "0529",
+      "name": "Razer USB Sound Card",
+      "transport": "kraken37",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": 37,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioKrakenOdessaT2 channel KrakenBase37",
+      "rzDeviceType": "AudioKrakenOdessaT2"
+    },
+    {
+      "pid": "052D",
+      "name": "Razer Kraken V3 Pro",
+      "transport": "ble-audio",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioNXPDevice channel Unsupported",
+      "rzDeviceType": "AudioNXPDevice"
+    },
+    {
+      "pid": "0530",
+      "name": "Razer Kraken BT Kitty Edition",
+      "transport": "ble-audio",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioAWKittyBLE channel Unsupported",
+      "rzDeviceType": "AudioAWKittyBLE"
+    },
+    {
+      "pid": "0532",
+      "name": "Razer Leviathan V2",
+      "transport": "hid25-65",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 65,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25Noa channel Protocol25Feature65",
+      "rzDeviceType": "rzDevice25Noa"
+    },
+    {
+      "pid": "0533",
+      "name": "Razer Kraken V3 HyperSense",
+      "transport": "kraken37",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": 37,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioKrystalT2 channel KrakenBase37",
+      "rzDeviceType": "AudioKrystalT2"
+    },
+    {
+      "pid": "0534",
+      "name": "RAZER KRAKEN BT SANRIO LIMITED EDITION",
+      "transport": "ble-audio",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioAWKittyBLE channel Unsupported",
+      "rzDeviceType": "AudioAWKittyBLE"
+    },
+    {
+      "pid": "0537",
+      "name": "Razer Kraken V3 X",
+      "transport": "kraken37",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": 37,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioKrystalT3 channel KrakenBase37",
+      "rzDeviceType": "AudioKrystalT3"
+    },
+    {
+      "pid": "0539",
+      "name": "Razer Barracuda Pro",
+      "transport": "mxic64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioMxicDevice channel Mxic64",
+      "rzDeviceType": "AudioMxicDevice"
+    },
+    {
+      "pid": "053A",
+      "name": "",
+      "transport": "mxic64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioMxicDevice channel Mxic64",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "053B",
+      "name": "Razer Barracuda 2.4",
+      "transport": "mxic64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioMxicDevice channel Mxic64",
+      "rzDeviceType": "AudioMxicDevice"
+    },
+    {
+      "pid": "053C",
+      "name": "",
+      "transport": "unknown",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "unknown channel Unsupported",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "053E",
+      "name": "Razer Audio Mixer",
+      "transport": "mixer053e",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 9,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioMixer channel Mixer053E",
+      "rzDeviceType": "AudioMixer"
+    },
+    {
+      "pid": "0542",
+      "name": "Razer Seiren V2 Pro",
+      "transport": "native",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioCamyT1 channel NativeDll",
+      "rzDeviceType": "AudioCamyT1"
+    },
+    {
+      "pid": "0543",
+      "name": "Razer Seiren V2 X",
+      "transport": "native",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioCamyT2 channel NativeDll",
+      "rzDeviceType": "AudioCamyT2"
+    },
+    {
+      "pid": "0548",
+      "name": "Razer Leviathan V2 Pro",
+      "transport": "hid25-65",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 65,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25Noa channel Protocol25Feature65",
+      "rzDeviceType": "rzDevice25Noa"
+    },
+    {
+      "pid": "0549",
+      "name": "Razer Kraken V3",
+      "transport": "kraken37",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": 37,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioKrystalT2 channel KrakenBase37",
+      "rzDeviceType": "AudioKrystalT2"
+    },
+    {
+      "pid": "054A",
+      "name": "Razer Leviathan V2 X / Pokemon soundbar",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 7,
+      "reportSize": 91,
+      "evidence": [
+        "razer_hid/data/devices.json"
+      ],
+      "notes": "transaction checksum variant",
+      "rzDeviceType": "rzDevice25NoaT3"
+    },
+    {
+      "pid": "0554",
+      "name": "Razer Kraken Kitty V2 Pro",
+      "transport": "kraken37",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": 37,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioKittyV2Pro channel KrakenBase37",
+      "rzDeviceType": "AudioKittyV2Pro"
+    },
+    {
+      "pid": "0555",
+      "name": "Razer BlackShark V2 Pro",
+      "transport": "mxic64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioMxicDevice channel Mxic64",
+      "rzDeviceType": "AudioMxicDevice"
+    },
+    {
+      "pid": "055A",
+      "name": "Razer Nommo V2 Pro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25NommoV2Pro channel Feature91",
+      "rzDeviceType": "rzDevice25NommoV2Pro"
+    },
+    {
+      "pid": "055C",
+      "name": "Razer Nommo V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25NommoV2Pro channel Feature91",
+      "rzDeviceType": "rzDevice25NommoV2Pro"
+    },
+    {
+      "pid": "055E",
+      "name": "Razer Nommo V2 X",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25NommoV2Pro channel Feature91",
+      "rzDeviceType": "rzDevice25NommoV2Pro"
+    },
+    {
+      "pid": "0560",
+      "name": "Razer Kraken Kitty V2",
+      "transport": "kraken37",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": 37,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioKrakenKittyT3 channel KrakenBase37",
+      "rzDeviceType": "AudioKrakenKittyT3"
+    },
+    {
+      "pid": "0562",
+      "name": "Razer Kraken Kitty V2 BT Quartz Edition",
+      "transport": "ble-audio",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioAWKittyBLE channel Unsupported",
+      "rzDeviceType": "AudioAWKittyBLE"
+    },
+    {
+      "pid": "0565",
+      "name": "",
+      "transport": "billie64",
+      "connection": "wireless",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioOdessaT2Wireless channel Billie64",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0566",
+      "name": "Razer WIRELESS CONTROL POD",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P5"
+      ],
+      "notes": "command profile P5",
+      "rzDeviceType": "rzDevice30Layla"
+    },
+    {
+      "pid": "0567",
+      "name": "Razer Kraken V4 Pro",
+      "transport": "billie64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioBillieT1 channel Billie64",
+      "rzDeviceType": "AudioBillieT1"
+    },
+    {
+      "pid": "0568",
+      "name": "",
+      "transport": "billie64",
+      "connection": "wireless",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioBillieT1Dongle channel Billie64",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "056A",
+      "name": "Razer Seiren V3 Mini",
+      "transport": "hid25-65",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 65,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25AudioCamyT3V2 channel Protocol25Feature65",
+      "rzDeviceType": "rzDevice25AudioCamyT3V2"
+    },
+    {
+      "pid": "056B",
+      "name": "Razer Kraken V4",
+      "transport": "billie64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioBillieT2 channel Billie64",
+      "rzDeviceType": "AudioBillieT2"
+    },
+    {
+      "pid": "056C",
+      "name": "",
+      "transport": "billie64",
+      "connection": "wireless",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioBillieT2Dongle channel Billie64",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "056D",
+      "name": "Razer Kraken V4 X",
+      "transport": "kraken37",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": 37,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioKrystalT3 channel KrakenBase37",
+      "rzDeviceType": "AudioKrystalT3"
+    },
+    {
+      "pid": "056E",
+      "name": "Razer BlackShark V2 Hyperspeed",
+      "transport": "billie64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioOdessaT2Wireless channel Billie64",
+      "rzDeviceType": "AudioOdessaT2Wireless"
+    },
+    {
+      "pid": "056F",
+      "name": "Razer Seiren V3 Chroma",
+      "transport": "hid25-65",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 65,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25AudioCamy channel Protocol25Feature65",
+      "rzDeviceType": "rzDevice25AudioCamy"
+    },
+    {
+      "pid": "0570",
+      "name": "Razer Clio",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzDevice25Carol"
+      ],
+      "notes": "bundle declares rzDevice25Carol",
+      "rzDeviceType": "rzDevice25Carol"
+    },
+    {
+      "pid": "0574",
+      "name": "Razer Barracuda X Chroma",
+      "transport": "billie64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioMabelT3C channel Billie64",
+      "rzDeviceType": "AudioMabelT3C"
+    },
+    {
+      "pid": "0575",
+      "name": "",
+      "transport": "ble-audio",
+      "connection": "ble",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrieBle channel Unsupported",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0576",
+      "name": "BlackShark V3 Pro",
+      "transport": "hid64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrie channel DedicatedBlackShark",
+      "rzDeviceType": "AudioValkyrie"
+    },
+    {
+      "pid": "0577",
+      "name": "",
+      "transport": "hid64",
+      "connection": "wireless",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "unknown channel DedicatedBlackShark",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0578",
+      "name": "",
+      "transport": "ble-audio",
+      "connection": "ble",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrieBle channel Unsupported",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0579",
+      "name": "BlackShark V3",
+      "transport": "valkyrie64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrie channel Valkyrie64",
+      "rzDeviceType": "AudioValkyrie"
+    },
+    {
+      "pid": "057A",
+      "name": "",
+      "transport": "valkyrie64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrie channel Valkyrie64",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "057C",
+      "name": "BlackShark V3 X",
+      "transport": "valkyrie-t3-64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 7,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25ValkyrieT3 channel ValkyrieT3Feature64",
+      "rzDeviceType": "rzDevice25ValkyrieT3"
+    },
+    {
+      "pid": "057D",
+      "name": "",
+      "transport": "valkyrie-t3-64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 7,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25ValkyrieT3 channel ValkyrieT3Feature64",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "057E",
+      "name": "Razer Kraken V2 BT Hello Kitty and Friends Edition",
+      "transport": "ble-audio",
+      "connection": "ble",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=AudioAWKittyBLE"
+      ],
+      "notes": "bundle declares AudioAWKittyBLE",
+      "rzDeviceType": "AudioAWKittyBLE"
+    },
+    {
+      "pid": "057F",
+      "name": "Razer | Sanrio Characters Limited Edition Wireless Headset",
+      "transport": "ble-audio",
+      "connection": "ble",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=AudioAWKittyBLE"
+      ],
+      "notes": "bundle declares AudioAWKittyBLE",
+      "rzDeviceType": "AudioAWKittyBLE"
+    },
+    {
+      "pid": "0582",
+      "name": "Razer Kraken V3 X",
+      "transport": "kraken37",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": 37,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioKrystalT3 channel KrakenBase37",
+      "rzDeviceType": "AudioKrystalT3"
+    },
+    {
+      "pid": "0583",
+      "name": "Razer Barracuda Pro",
+      "transport": "mxic64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioMxicDevice channel Mxic64",
+      "rzDeviceType": "AudioMxicDevice"
+    },
+    {
+      "pid": "0584",
+      "name": "Razer Barracuda 2.4",
+      "transport": "mxic64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioMxicDevice channel Mxic64",
+      "rzDeviceType": "AudioMxicDevice"
+    },
+    {
+      "pid": "0587",
+      "name": "Razer Kraken Kitty V3 Pro",
+      "transport": "billie64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioBastetT1 channel Billie64",
+      "rzDeviceType": "AudioBastetT1"
+    },
+    {
+      "pid": "0588",
+      "name": "",
+      "transport": "billie64",
+      "connection": "wireless",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioBastetT1Dongle channel Billie64",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0589",
+      "name": "",
+      "transport": "ble-audio",
+      "connection": "ble",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioBastetT1Ble channel Unsupported",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "058A",
+      "name": "",
+      "transport": "kraken37",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": 37,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioKrakenKittyT3 channel KrakenBase37",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "058C",
+      "name": "Razer Hammerhead V3",
+      "transport": "hid25-65",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 65,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioLindaT3 channel Protocol25Feature65",
+      "rzDeviceType": "AudioLindaT3"
+    },
+    {
+      "pid": "058E",
+      "name": "Razer Seiren V3 Pro",
+      "transport": "hid25-65",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 65,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25AudioMarieT1 channel Protocol25Feature65",
+      "rzDeviceType": "rzDevice25AudioMarieT1"
+    },
+    {
+      "pid": "0592",
+      "name": "",
+      "transport": "protocol40",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice40HeadsetAiroha channel Mxic64",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0593",
+      "name": "Razer Barracuda V2 Pro",
+      "transport": "protocol40",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice40HeadsetAiroha channel Mxic64",
+      "rzDeviceType": "rzDevice40HeadsetAiroha"
+    },
+    {
+      "pid": "059F",
+      "name": "Razer Kraken V4 X Sensa HD Haptics",
+      "transport": "mxic64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice40BillieT3H channel Mxic64",
+      "rzDeviceType": "rzDevice40BillieT3H"
+    },
+    {
+      "pid": "05A2",
+      "name": "Razer Carol T2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzDevice25Carol"
+      ],
+      "notes": "bundle declares rzDevice25Carol",
+      "rzDeviceType": "rzDevice25Carol"
+    },
+    {
+      "pid": "05A3",
+      "name": "Razer Leviathan V2",
+      "transport": "hid25-64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25NoaT2ECR channel Protocol25Feature64",
+      "rzDeviceType": "rzDevice25NoaT2ECR"
+    },
+    {
+      "pid": "05A6",
+      "name": "Razer Seiren V3 Chroma 32-Bit DSP",
+      "transport": "hid25-65",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 65,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25AudioCamyT2V3R channel Protocol25Feature65",
+      "rzDeviceType": "rzDevice25AudioCamyT2V3R"
+    },
+    {
+      "pid": "05AB",
+      "name": "Razer Mako",
+      "transport": "jolie64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 7,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDeviceJolie channel Jolie64",
+      "rzDeviceType": "rzDeviceJolie"
+    },
+    {
+      "pid": "05AD",
+      "name": "Razer Mako X",
+      "transport": "jolie64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 7,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDeviceJolie channel Jolie64",
+      "rzDeviceType": "rzDeviceJolie"
+    },
+    {
+      "pid": "05B3",
+      "name": "",
+      "transport": "valkyrie-t3-64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 7,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25ValkyrieT3 channel ValkyrieT3Feature64",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "05B6",
+      "name": "Razer Kraken Kitty V3",
+      "transport": "valkyrie-t3-64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 7,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25ValkyrieT3 channel ValkyrieT3Feature64",
+      "rzDeviceType": "rzDevice25ValkyrieT3"
+    },
+    {
+      "pid": "05B9",
+      "name": "Razer Hammerhead V3 Chroma",
+      "transport": "mxic64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice40 channel Mxic64",
+      "rzDeviceType": "rzDevice40"
+    },
+    {
+      "pid": "0A22",
+      "name": "Razer Turret Mouse Gears Of War 5 Edition",
+      "transport": "native",
+      "connection": "unknown",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "docs/reverse/generated/js-bundle-completeness.md"
+      ],
+      "notes": "native FFI actions only; no HID sendCommand path",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0A23",
+      "name": "",
+      "transport": "unknown",
+      "connection": "unknown",
+      "confidence": "unknown",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [],
+      "notes": "no product-specific transport evidence in the snapshot",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0A24",
+      "name": "Razer BlackWidow V3 TK",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/keyboards.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0A45",
+      "name": "Razer Wolverine V3 Tournament Edition",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 4,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerGamepadService.cs"
+      ],
+      "notes": "protocol 2.5 gamepad; report id 4",
+      "rzDeviceType": "rzDevice25Sage"
+    },
+    {
+      "pid": "0A4C",
+      "name": "Razer Wolverine V3 Pro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 4,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerGamepadService.cs"
+      ],
+      "notes": "protocol 2.5 gamepad; report id 4",
+      "rzDeviceType": "rzDevice25Sage"
+    },
+    {
+      "pid": "0A4E",
+      "name": "BlackShark V3 Pro XBOX",
+      "transport": "valkyrie64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrie channel Valkyrie64",
+      "rzDeviceType": "AudioValkyrie"
+    },
+    {
+      "pid": "0A4F",
+      "name": "",
+      "transport": "ble-audio",
+      "connection": "ble",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrieBle channel Unsupported",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0A51",
+      "name": "BlackShark V3 XBOX",
+      "transport": "valkyrie64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrie channel Valkyrie64",
+      "rzDeviceType": "AudioValkyrie"
+    },
+    {
+      "pid": "0A52",
+      "name": "",
+      "transport": "ble-audio",
+      "connection": "ble",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrieBle channel Unsupported",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0A54",
+      "name": "BlackShark V3 X Xbox",
+      "transport": "valkyrie-t3-64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 7,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25ValkyrieT3 channel ValkyrieT3Feature64",
+      "rzDeviceType": "rzDevice25ValkyrieT3"
+    },
+    {
+      "pid": "0A55",
+      "name": "",
+      "transport": "valkyrie64",
+      "connection": "wireless",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrie channel Valkyrie64",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0A56",
+      "name": "",
+      "transport": "ble-audio",
+      "connection": "ble",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25ValkyrieT3Ble channel Unsupported",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0A57",
+      "name": "Razer Wolverine V3 Pro PC",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 10,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerGamepadService.cs"
+      ],
+      "notes": "protocol 2.5 gamepad; report id 10",
+      "rzDeviceType": "rzDevice25SagePC"
+    },
+    {
+      "pid": "0A58",
+      "name": "",
+      "transport": "valkyrie64",
+      "connection": "wireless",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrie channel Valkyrie64",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0A5A",
+      "name": "Razer Wolverine V3 TE PC",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 4,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerGamepadService.cs"
+      ],
+      "notes": "protocol 2.5 gamepad; report id 4",
+      "rzDeviceType": "rzDevice25Sage"
+    },
+    {
+      "pid": "0A5B",
+      "name": "",
+      "transport": "valkyrie-t3-64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 7,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25ValkyrieT3 channel ValkyrieT3Feature64",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0A61",
+      "name": "Razer Hammerhead V3 HyperSpeed",
+      "transport": "mxic64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice40 channel Mxic64",
+      "rzDeviceType": "rzDevice40"
+    },
+    {
+      "pid": "0A64",
+      "name": "Razer Hammerhead V3 X Hyperspeed",
+      "transport": "mxic64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice40 channel Mxic64",
+      "rzDeviceType": "rzDevice40"
+    },
+    {
+      "pid": "0A68",
+      "name": "Razer Hammerhead V3 X Hyperspeed for Xbox",
+      "transport": "mxic64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice40 channel Mxic64",
+      "rzDeviceType": "rzDevice40"
+    },
+    {
+      "pid": "0A6C",
+      "name": "Razer Hammerhead V3 X Hyperspeed",
+      "transport": "mxic64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice40 channel Mxic64",
+      "rzDeviceType": "rzDevice40"
+    },
+    {
+      "pid": "0A74",
+      "name": "Razer Wolverine V4 Pro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 10,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerGamepadService.cs"
+      ],
+      "notes": "protocol 2.5 gamepad; report id 10",
+      "rzDeviceType": "rzDevice25SagePC"
+    },
+    {
+      "pid": "0A7C",
+      "name": "Razer Wolverine V4 Tournament Edition",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 10,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerGamepadService.cs"
+      ],
+      "notes": "protocol 2.5 gamepad; report id 10",
+      "rzDeviceType": "rzDevice25SagePC"
+    },
+    {
+      "pid": "0A81",
+      "name": "Razer Hammerhead V3 X Hyperspeed Kuromi Edition",
+      "transport": "mxic64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice40 channel Mxic64",
+      "rzDeviceType": "rzDevice40"
+    },
+    {
+      "pid": "0C00",
+      "name": "Razer Firefly (2013)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25Legacy"
+    },
+    {
+      "pid": "0C01",
+      "name": "Razer Goliathus (2018)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0C02",
+      "name": "Razer Goliathus Extended (2018)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0C04",
+      "name": "Razer Firefly V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0C05",
+      "name": "Razer Strider Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0C06",
+      "name": "Razer Goliathus Chroma 3XL",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0C08",
+      "name": "Razer Firefly V2 Pro",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0D03",
+      "name": "Razer RipSaw HD",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzDeviceKateT2"
+      ],
+      "notes": "bundle declares rzDeviceKateT2",
+      "rzDeviceType": "rzDeviceKateT2"
+    },
+    {
+      "pid": "0D06",
+      "name": "Razer Stream Controller",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzDeviceChelsea"
+      ],
+      "notes": "bundle declares rzDeviceChelsea",
+      "rzDeviceType": "rzDeviceChelsea"
+    },
+    {
+      "pid": "0D09",
+      "name": "Razer Stream Controller X",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzDeviceChelsea"
+      ],
+      "notes": "bundle declares rzDeviceChelsea",
+      "rzDeviceType": "rzDeviceChelsea"
+    },
+    {
+      "pid": "0E03",
+      "name": "Razer Kiyo",
+      "transport": "native",
+      "connection": "unknown",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzCamKiyo"
+      ],
+      "notes": "bundle declares rzCamKiyo",
+      "rzDeviceType": "rzCamKiyo"
+    },
+    {
+      "pid": "0E05",
+      "name": "Razer Kiyo Pro",
+      "transport": "native",
+      "connection": "unknown",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzCamKiyoPro"
+      ],
+      "notes": "bundle declares rzCamKiyoPro",
+      "rzDeviceType": "rzCamKiyoPro"
+    },
+    {
+      "pid": "0E06",
+      "name": "Razer Kiyo X",
+      "transport": "native",
+      "connection": "unknown",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzCamKiyoX"
+      ],
+      "notes": "bundle declares rzCamKiyoX",
+      "rzDeviceType": "rzCamKiyoX"
+    },
+    {
+      "pid": "0E08",
+      "name": "Razer Kiyo Pro Ultra",
+      "transport": "native",
+      "connection": "unknown",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzCamKiyoProUltra"
+      ],
+      "notes": "bundle declares rzCamKiyoProUltra",
+      "rzDeviceType": "rzCamKiyoProUltra"
+    },
+    {
+      "pid": "0E0A",
+      "name": "Razer Kiyo V2 Pro",
+      "transport": "native",
+      "connection": "unknown",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzCamKimberly"
+      ],
+      "notes": "bundle declares rzCamKimberly",
+      "rzDeviceType": "rzCamKimberly"
+    },
+    {
+      "pid": "0E0B",
+      "name": "Razer Kiyo V2",
+      "transport": "native",
+      "connection": "unknown",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzCamKimberly"
+      ],
+      "notes": "bundle declares rzCamKimberly",
+      "rzDeviceType": "rzCamKimberly"
+    },
+    {
+      "pid": "0E0C",
+      "name": "Razer Kiyo V2 X",
+      "transport": "native",
+      "connection": "unknown",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzCamKimberly"
+      ],
+      "notes": "bundle declares rzCamKimberly",
+      "rzDeviceType": "rzCamKimberly"
+    },
+    {
+      "pid": "0F07",
+      "name": "Razer Chroma Mug Holder",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "0F08",
+      "name": "Razer Base Station Chroma (Headphone Stand)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F09",
+      "name": "Razer Chroma Hardware Development Kit (HDK)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F0D",
+      "name": "Razer Laptop Stand Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F12",
+      "name": "Razer Raptor 27",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25Ex"
+    },
+    {
+      "pid": "0F13",
+      "name": "Lian Li O11 Dynamic - Razer Edition",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F17",
+      "name": "Razer Tomahawk ATX",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F1A",
+      "name": "Razer Core X Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F1B",
+      "name": "",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioCamyT3Device channel Feature91",
+      "rzDeviceType": "AudioCamyT3Device"
+    },
+    {
+      "pid": "0F1D",
+      "name": "Razer Mouse Bungee V3 Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F1F",
+      "name": "RAZER CHROMA ADDRESSABLE RGB CONTROLLER",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P8"
+      ],
+      "notes": "command profile P8",
+      "rzDeviceType": "rzDevice25Glitter"
+    },
+    {
+      "pid": "0F20",
+      "name": "Razer Base Station V2 Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F21",
+      "name": "Razer Thunderbolt 4 Dock Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F26",
+      "name": "Razer Charging Pad Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F27",
+      "name": "Tomahawk Gaming Desktop",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P10"
+      ],
+      "notes": "command profile P10",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F28",
+      "name": "Razer Raptor 27 (165Hz)",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P8"
+      ],
+      "notes": "command profile P8",
+      "rzDeviceType": "rzDevice25Ex"
+    },
+    {
+      "pid": "0F2B",
+      "name": "Razer Laptop Stand Chroma V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F2C",
+      "name": "Razer Chroma Wireless ARGB Controller",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P8"
+      ],
+      "notes": "command profile P8",
+      "rzDeviceType": "rzDevice25GlitterWireless"
+    },
+    {
+      "pid": "0F2E",
+      "name": "",
+      "transport": "hid25",
+      "connection": "wireless",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzDevice25GlitterWireless"
+      ],
+      "notes": "bundle declares rzDevice25GlitterWireless",
+      "rzDeviceType": "rzDevice25GlitterWireless"
+    },
+    {
+      "pid": "0F35",
+      "name": "RAZER HANBO AIO",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P8"
+      ],
+      "notes": "command profile P8",
+      "rzDeviceType": "rzDeviceElsa"
+    },
+    {
+      "pid": "0F36",
+      "name": "Razer Head Cushion Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P10"
+      ],
+      "notes": "command profile P10",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F3C",
+      "name": "RAZER PWM PC FAN CONTROLLER",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P8"
+      ],
+      "notes": "command profile P8",
+      "rzDeviceType": "rzDevice25PWMPCFanController"
+    },
+    {
+      "pid": "0F43",
+      "name": " RAZER LAPTOP COOLING PAD",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P33"
+      ],
+      "notes": "command profile P33",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F45",
+      "name": "Esther",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P9"
+      ],
+      "notes": "command profile P9",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F51",
+      "name": "Razer Core X V2",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P10"
+      ],
+      "notes": "command profile P10",
+      "rzDeviceType": "rzDevice25FiverV2"
+    },
+    {
+      "pid": "0F52",
+      "name": "Razer Thunderbolt 5 Dock Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F59",
+      "name": "Razer Monitor Stand Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F5A",
+      "name": "Razer Laptop Monitor Stand Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F5C",
+      "name": "Razer Handheld Dock Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHid/accessories.json"
+      ],
+      "notes": "OpenRazer/RazerHid catalog; 91-byte feature report",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F64",
+      "name": "Razer Soma Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P8"
+      ],
+      "notes": "command profile P8",
+      "rzDeviceType": "rzDevice25GlitterWireless"
+    },
+    {
+      "pid": "0F66",
+      "name": "Razer Marci",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25MarciT1 channel Feature91",
+      "rzDeviceType": "rzDevice25MarciT1"
+    },
+    {
+      "pid": "0F6A",
+      "name": "Razer Base Station V3 Chroma",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P10"
+      ],
+      "notes": "command profile P10",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "0F6D",
+      "name": "MarciT2H",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 0,
+      "reportSize": 91,
+      "evidence": [
+        "docs/MIDDLEWARE_DEVICE_PROTOCOLS.md#P9"
+      ],
+      "notes": "command profile P9",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "1013",
+      "name": "Razer Kitsune",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 4,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerGamepadService.cs"
+      ],
+      "notes": "protocol 2.5 gamepad; report id 4",
+      "rzDeviceType": "rzDevice25SagePC"
+    },
+    {
+      "pid": "101B",
+      "name": "",
+      "transport": "hid64",
+      "connection": "wireless",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "unknown channel DedicatedBlackShark",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "101C",
+      "name": "BlackShark V3 Pro PS",
+      "transport": "hid64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrie channel DedicatedBlackShark",
+      "rzDeviceType": "AudioValkyrie"
+    },
+    {
+      "pid": "101D",
+      "name": "",
+      "transport": "ble-audio",
+      "connection": "ble",
+      "confidence": "evidenced",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrieBle channel Unsupported",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "101E",
+      "name": "BlackShark V3 PS",
+      "transport": "valkyrie64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrie channel Valkyrie64",
+      "rzDeviceType": "AudioValkyrie"
+    },
+    {
+      "pid": "101F",
+      "name": "BlackShark V3 PS",
+      "transport": "valkyrie64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 2,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "AudioValkyrie channel Valkyrie64",
+      "rzDeviceType": "AudioValkyrie"
+    },
+    {
+      "pid": "1021",
+      "name": "",
+      "transport": "valkyrie-t3-64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 7,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25ValkyrieT3 channel ValkyrieT3Feature64",
+      "rzDeviceType": null
+    },
+    {
+      "pid": "1022",
+      "name": "BlackShark V3 X PS",
+      "transport": "valkyrie-t3-64",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 7,
+      "reportSize": 64,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerHeadsetChannelCatalog.cs"
+      ],
+      "notes": "rzDevice25ValkyrieT3 channel ValkyrieT3Feature64",
+      "rzDeviceType": "rzDevice25ValkyrieT3"
+    },
+    {
+      "pid": "1025",
+      "name": "Razer Wolverine V3 Pro Playstation",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 4,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerGamepadService.cs"
+      ],
+      "notes": "protocol 2.5 gamepad; report id 4",
+      "rzDeviceType": "rzDevice25SagePC"
+    },
+    {
+      "pid": "1030",
+      "name": "Razer Raiju V3 Pro Signature Edition",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "evidenced",
+      "reportId": 4,
+      "reportSize": 91,
+      "evidence": [
+        "src/OpenSynapse.Windows/Devices/RazerGamepadService.cs"
+      ],
+      "notes": "protocol 2.5 gamepad; report id 4",
+      "rzDeviceType": "rzDevice25SagePC"
+    },
+    {
+      "pid": "B005",
+      "name": "Razer Viper V4 HyperSpeed",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzDevice25"
+      ],
+      "notes": "bundle declares rzDevice25",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "B007",
+      "name": "Razer DeathAdder V4 HyperSpeed",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzDevice25"
+      ],
+      "notes": "bundle declares rzDevice25",
+      "rzDeviceType": "rzDevice25"
+    },
+    {
+      "pid": "B00A",
+      "name": "Razer Basilisk V3 Pro 35K - Xbox 25 Anniversary Edition",
+      "transport": "hid25",
+      "connection": "usb",
+      "confidence": "family-inferred",
+      "reportId": null,
+      "reportSize": null,
+      "evidence": [
+        "bundle useFeature rzDeviceType=rzDevice25"
+      ],
+      "notes": "bundle declares rzDevice25",
+      "rzDeviceType": "rzDevice25"
+    }
+  ]
+}
