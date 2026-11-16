@@ -1,5 +1,7 @@
 # razer-hid
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 Razer HID protocol 2.5/3.0/64 reference client, transport table and
 command/payload database.
 
@@ -109,7 +111,7 @@ hex bytes separated by spaces or no separator.
 | `0046` | Razer Mamba Elite | HID 2.5 | 0 / 91 | supported |
 | `00B8` | Razer Viper V3 HyperSpeed | HID 2.5 | 0 / 91, tx 0..31 | supported |
 | `028D` | Blackwidow V4 Pro | HID 2.5 | 0 / 91 | supported |
-| `00A4` | Razer Mouse Dock Pro | HID 2.5 | 0 / 91, tx `0xE0 | seq` | supported |
+| `00A4` | Razer Mouse Dock Pro | HID 2.5 | 0 / 91, tx `0xE0 + seq` | supported |
 | `054A` | Razer Leviathan V2 X / Pokemon soundbar | HID 2.5 | 7 / 91 | supported |
 | `0A45` | Razer Wolverine V3 TE | HID 2.5 | 4 / 91 | supported |
 | `00E5` | Razer Viper V4 Pro | BLE 3.0 | GATT | experimental, async only |
