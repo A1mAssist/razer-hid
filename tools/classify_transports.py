@@ -594,7 +594,7 @@ def main() -> int:
     args.doc.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     device_lines = [
-        "# Supported devices / 支持设备",
+        "# All devices / 全部设备",
         "",
         f"Snapshot: **{SNAPSHOT}**. Rows: **{len(ordered)}**.",
         "",

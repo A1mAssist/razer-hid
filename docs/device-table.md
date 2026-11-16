@@ -1,4 +1,4 @@
-# Supported devices / 支持设备
+# All devices / 全部设备
 
 Snapshot: **2026-11-16**. Rows: **451**.
 

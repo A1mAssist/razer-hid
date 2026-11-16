@@ -99,7 +99,7 @@ razerctl raw 00B8 04 05 0003200320 --allow-writes
 class 和 command 参数按十六进制解析（`07`、`0B`、`0x80`）；
 payload 可以带空格，也可以连续写。
 
-## 已支持设备
+## 设备支持情况
 
 完整设备列表（PID、产品、传输、Report、状态）见
 [`docs/device-table.md`](docs/device-table.md)。451 行全量证据表见

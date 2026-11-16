@@ -104,7 +104,7 @@ razerctl raw 00B8 04 05 0003200320 --allow-writes
 Class and command arguments are hexadecimal (`07`, `0B`, `0x80`). Payload is
 hex bytes separated by spaces or no separator.
 
-## Supported devices
+## Device support
 
 The full device list, including transport, report layout and status, is in
 [`docs/device-table.md`](docs/device-table.md). The generated 451-row evidence
