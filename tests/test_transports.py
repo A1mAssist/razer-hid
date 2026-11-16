@@ -4,6 +4,7 @@ from pathlib import Path
 
 
 DATA = Path(__file__).resolve().parents[1] / "razer_hid/data/transports.json"
+DEVICE_DOC = Path(__file__).resolve().parents[1] / "docs/device-table.md"
 ALLOWED_TRANSPORT = {
     "hid25",
     "hid25-64",
@@ -62,6 +63,16 @@ class TransportTableTests(unittest.TestCase):
         text = DATA.read_text(encoding="utf-8")
         self.assertNotIn("D:\\", text)
         self.assertNotIn("C:\\", text)
+
+
+class DeviceTableDocTests(unittest.TestCase):
+    def test_document_contains_every_pid(self):
+        data = json.loads(DATA.read_text(encoding="utf-8"))
+        text = DEVICE_DOC.read_text(encoding="utf-8")
+        rows = [line for line in text.splitlines() if line.startswith("| `")]
+        self.assertEqual(len(rows), len(data["devices"]))
+        for pid in ("0046", "00B8", "0576", "0A23", "053C"):
+            self.assertIn(f"| `{pid}` |", text)
 
 
 if __name__ == "__main__":

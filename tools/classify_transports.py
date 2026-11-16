@@ -202,6 +202,29 @@ def parse_gamepads(path: Path) -> dict[str, str]:
     return gamepads
 
 
+def device_status(transport: str, confidence: str) -> str:
+    if confidence == "verified":
+        return "verified / 已实机验证"
+    if transport in {"hid25", "hid30", "hid64"}:
+        return "implemented / 已实现"
+    if transport == "ble30":
+        return "experimental / 实验性"
+    if transport == "unknown":
+        return "unknown / 未知"
+    return "catalogued / 已登记"
+
+
+def report_layout(row: dict) -> str:
+    report_id = row.get("reportId")
+    report_size = row.get("reportSize")
+    if report_id is None and report_size is None:
+        return "-"
+    return (
+        f"{report_id if report_id is not None else '-'} / "
+        f"{report_size if report_size is not None else '-'}"
+    )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -219,6 +242,11 @@ def main() -> int:
         "--doc",
         type=Path,
         default=Path("docs/transport-table.md"),
+    )
+    parser.add_argument(
+        "--device-doc",
+        type=Path,
+        default=Path("docs/device-table.md"),
     )
     args = parser.parse_args()
 
@@ -565,8 +593,52 @@ def main() -> int:
     args.doc.parent.mkdir(parents=True, exist_ok=True)
     args.doc.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
+    device_lines = [
+        "# Supported devices / 支持设备",
+        "",
+        f"Snapshot: **{SNAPSHOT}**. Rows: **{len(ordered)}**.",
+        "",
+        "Status is this package's implementation status; confidence is",
+        "transport-evidence confidence.",
+        "",
+        "状态表示本包实现状态；置信度表示传输证据强度。",
+        "",
+        "| PID | Product / 产品 | Transport / 传输 | Connection / 连接 | Report | Status / 状态 | Confidence / 置信度 |",
+        "|---|---|---|---|---|---|---|",
+    ]
+    for row in ordered:
+        name = (row["name"] or "-").replace("|", "\\|")
+        device_lines.append(
+            f"| `{row['pid']}` | {name} | `{row['transport']}` | "
+            f"{row['connection']} | {report_layout(row)} | "
+            f"{device_status(row['transport'], row['confidence'])} | "
+            f"{row['confidence']} |"
+        )
+    device_lines += [
+        "",
+        "Evidence is in [`transport-table.md`](transport-table.md); machine-readable",
+        "data is in `razer_hid/data/transports.json`.",
+        "",
+        "证据见 [`transport-table.md`](transport-table.md)；机器可读数据在",
+        "`razer_hid/data/transports.json`。",
+        "",
+        "`0565` and `056E` are BlackShark V2 HyperSpeed devices on `billie64`,",
+        "not the protocol 64 envelope used by `0576`, `0577`, `101B` and `101C`.",
+        "",
+        "`0565` 和 `056E` 是 BlackShark V2 HyperSpeed，使用 `billie64`，",
+        "不是 `0576`、`0577`、`101B`、`101C` 使用的协议 64 帧。",
+        "",
+        "Only `00B8` has a documented hardware-verified command path; see",
+        "[`hardware-validation.md`](hardware-validation.md).",
+        "",
+        "只有 `00B8` 有已记录的实机验证命令路径；见",
+        "[`hardware-validation.md`](hardware-validation.md)。",
+    ]
+    args.device_doc.parent.mkdir(parents=True, exist_ok=True)
+    args.device_doc.write_text("\n".join(device_lines) + "\n", encoding="utf-8")
+
     print(
-        f"{len(ordered)} rows -> {args.out}; "
+        f"{len(ordered)} rows -> {args.out} + {args.device_doc}; "
         f"{dict(sorted(by_transport.items()))}; "
         f"{dict(sorted(by_confidence.items()))}"
     )

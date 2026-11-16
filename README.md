@@ -106,7 +106,7 @@ hex bytes separated by spaces or no separator.
 
 ## Supported devices
 
-The curated list, including transport, report layout and status, is in
+The full device list, including transport, report layout and status, is in
 [`docs/device-table.md`](docs/device-table.md). The generated 451-row evidence
 table is in [`docs/transport-table.md`](docs/transport-table.md); machine-readable
 data is in `razer_hid/data/transports.json` and

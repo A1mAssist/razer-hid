@@ -101,7 +101,7 @@ payload 可以带空格，也可以连续写。
 
 ## 已支持设备
 
-精选列表（PID、产品、传输、Report、状态）见
+完整设备列表（PID、产品、传输、Report、状态）见
 [`docs/device-table.md`](docs/device-table.md)。451 行全量证据表见
 [`docs/transport-table.md`](docs/transport-table.md)；机器可读数据在
 `razer_hid/data/transports.json` 和 `razer_hid/data/devices.json`。
