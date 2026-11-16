@@ -101,33 +101,18 @@ payload 可以带空格，也可以连续写。
 
 ## 已支持设备
 
-| PID | 产品 | 传输 | Report | 状态 |
-|---|---|---|---|---|
-| `0046` | Razer Mamba Elite | HID 2.5 | 0 / 91 | 已支持 |
-| `00B8` | Razer Viper V3 HyperSpeed | HID 2.5 | 0 / 91, tx 0..31 | 已支持 |
-| `028D` | Blackwidow V4 Pro | HID 2.5 | 0 / 91 | 已支持 |
-| `00A4` | Razer Mouse Dock Pro | HID 2.5 | 0 / 91, tx `0xE0 + seq` | 已支持 |
-| `054A` | Razer Leviathan V2 X / Pokemon soundbar | HID 2.5 | 7 / 91 | 已支持 |
-| `0A45` | Razer Wolverine V3 TE | HID 2.5 | 4 / 91 | 已支持 |
-| `00E5` | Razer Viper V4 Pro | BLE 3.0 | GATT | 实验性，仅异步 |
-| `0576` | Razer BlackShark V3 Pro | 64 字节输出 | 2 / 64 | 已实现，未实机验证 |
-| `0577` | Razer BlackShark V3 Pro receiver | 64 字节输出 | 2 / 64 | 已实现，未实机验证 |
-| `101B` | BlackShark V3 Pro 2.4 GHz dongle | 64 字节输出 | 2 / 64 | 已实现，未实机验证 |
-| `101C` | BlackShark V3 Pro USB | 64 字节输出 | 2 / 64 | 已实现，未实机验证 |
-
-完整传输表在 `razer_hid/data/transports.json`，可读版本在
-`docs/transport-table.md`。精选设备在 `razer_hid/data/devices.json`。
-未列出的 PID 仍可以用
-`RazerDevice.open(pid, transport="hid25", report_id=...)` 或
-`razerctl probe` 尝试。
+精选列表（PID、产品、传输、Report、状态）见
+[`docs/device-table.md`](docs/device-table.md)。451 行全量证据表见
+[`docs/transport-table.md`](docs/transport-table.md)；机器可读数据在
+`razer_hid/data/transports.json` 和 `razer_hid/data/devices.json`。
 
 `0565` 和 `056E` 是 BlackShark V2 HyperSpeed，使用 `billie64`，
 不是上面的协议 64 帧。
 
-00B8 的 `wireless-link-status` 读取（`00:BF`，长度 `0x50`）在
-2026-11-16 对本地 dongle 验证过，返回 `status 0x02`。鼠标休眠/关闭时，
-电量、DPI 和轮询率读取返回 `0x04`，所以这些 typed 路径仍未验证。
-精确的 probe 和响应见 `docs/hardware-validation.md`。
+未列出的 PID 仍可以用
+`RazerDevice.open(pid, transport="hid25", report_id=...)` 或
+`razerctl probe` 尝试。00B8 的实机读取记录见
+[`docs/hardware-validation.md`](docs/hardware-validation.md)。
 
 ## 命令数据库
 

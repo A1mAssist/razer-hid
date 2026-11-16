@@ -106,35 +106,19 @@ hex bytes separated by spaces or no separator.
 
 ## Supported devices
 
-| PID | Product | Transport | Report | Status |
-|---|---|---|---|---|
-| `0046` | Razer Mamba Elite | HID 2.5 | 0 / 91 | supported |
-| `00B8` | Razer Viper V3 HyperSpeed | HID 2.5 | 0 / 91, tx 0..31 | supported |
-| `028D` | Blackwidow V4 Pro | HID 2.5 | 0 / 91 | supported |
-| `00A4` | Razer Mouse Dock Pro | HID 2.5 | 0 / 91, tx `0xE0 + seq` | supported |
-| `054A` | Razer Leviathan V2 X / Pokemon soundbar | HID 2.5 | 7 / 91 | supported |
-| `0A45` | Razer Wolverine V3 TE | HID 2.5 | 4 / 91 | supported |
-| `00E5` | Razer Viper V4 Pro | BLE 3.0 | GATT | experimental, async only |
-| `0576` | Razer BlackShark V3 Pro | 64-byte output | 2 / 64 | implemented, not hardware-verified |
-| `0577` | Razer BlackShark V3 Pro receiver | 64-byte output | 2 / 64 | implemented, not hardware-verified |
-| `101B` | BlackShark V3 Pro 2.4 GHz dongle | 64-byte output | 2 / 64 | implemented, not hardware-verified |
-| `101C` | BlackShark V3 Pro USB | 64-byte output | 2 / 64 | implemented, not hardware-verified |
-
-The full table is `razer_hid/data/transports.json`; the generated Markdown view
-is `docs/transport-table.md`. The curated entries are in
-`razer_hid/data/devices.json`. Unlisted PIDs can still be addressed with
-`RazerDevice.open(pid, transport="hid25", report_id=...)` or probed with
-`razerctl probe`.
+The curated list, including transport, report layout and status, is in
+[`docs/device-table.md`](docs/device-table.md). The generated 451-row evidence
+table is in [`docs/transport-table.md`](docs/transport-table.md); machine-readable
+data is in `razer_hid/data/transports.json` and
+`razer_hid/data/devices.json`.
 
 `0565` and `056E` are BlackShark V2 HyperSpeed devices on `billie64`; they are
 not the protocol 64 envelope above.
 
-The 00B8 `wireless-link-status` read (`00:BF`, size `0x50`) was verified on
-2026-11-16 against the local dongle (`status 0x02`). Battery, DPI and polling
-returned `0x04` while the mouse was asleep/off, so those typed paths remain
-unverified.
-
-See `docs/hardware-validation.md` for the exact probe and response.
+Unlisted PIDs can still be addressed with
+`RazerDevice.open(pid, transport="hid25", report_id=...)` or probed with
+`razerctl probe`. The 00B8 wireless-link read is documented in
+[`docs/hardware-validation.md`](docs/hardware-validation.md).
 
 ## Command database
 
